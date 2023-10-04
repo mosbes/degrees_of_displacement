@@ -20,4 +20,4 @@ def get_degree(time: float, acceleration: float, radius: float, speed: float | N
     distance = speed * time + acceleration * (time ** 2) / 2
     degree = 0 if circ_len == 0 else distance % circ_len / circ_len * degree_all_circ
 
-    return round(degree, 2)
+    return round(degree, 2) # тест ревью
